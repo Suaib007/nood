@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import dummy_api
+from .views import use_fetch_orders
 
 urlpatterns = [
-    path('dummy-api/', dummy_api, name='dummy_api'),
+    path('use_fetch_orders/',use_fetch_orders, name='use_fetch_orders')
+   
 ]
